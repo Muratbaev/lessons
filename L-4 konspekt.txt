@@ -1,0 +1,55 @@
+  a1 = 'BOmb haS bEEn PlANneD'
+  print(a1.replace('B','b'))
+  print(a1.strip('b'))
+  print(a1.count())
+  print(a1.index())
+  print(a1.rindex())
+
+
+
+  STRIP = cut off unwanted characters
+  text = input('type the text: ')
+  old = input('error - ')
+  print(text.strip(old))
+
+
+ COUNT
+  text = input('type the text: ')
+  old = input('which symbol to count - ')
+  print(text.count(old))
+
+ LEN
+  text = input('type the text: ')
+
+  INDEX
+  text = input('type the text: ')
+  print(text.index())
+  print(text.index('l', 2, 13))  
+
+  text = 'hello guys, my name is Palenshe and i am a python developer!'
+  print(text.index('!'))
+  print(text[59])
+  print(text[-1])
+  print(text[6:10])
+  print(text.index('P'))
+  print(text[23:32])
+
+  text = input('type the text: ')
+  start = int(input('where to start - '))
+  finish = int(input('where to finish - '))
+
+  print(text[start:finish])
+
+  a = 'Germany is A coUNtry in EUroPe'
+  print(a.lower(), 'lower')
+  print(a.upper(),'upper')
+  print(a.title(),'title')
+  print(a.capitalize(), 'cap')
+  print(a.swapcase(),'swap')
+  print(a)
+
+ cap - first letter upper rest lower
+ lower - all lower
+ upper - all upper
+ title - first letter of EACH WORD upper rest lower
+ swapcase - negative
